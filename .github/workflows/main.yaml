@@ -2,11 +2,11 @@ name: Build and push image to ECR
 on:
   push:
     branches:
-      -master
+      - master
 
 jobs:
   build-and-push-ecr-image:
-    name: Build image
+    name: Build Image
     runs-on: ubuntu-latest
     steps:
     - name: Check out code
